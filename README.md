@@ -10,6 +10,7 @@ The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a 
 ## Technologies
 
 Javascript, React, HTML, CSS
+
 ![Javascript](/images/JavaScript.png)
 ![React](/images/React.png)
 ![HTML](/images/html.png)
