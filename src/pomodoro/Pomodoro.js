@@ -88,20 +88,6 @@ function Pomodoro() {
 
   }
 
-//to create the progress section of the progress bar
-  /*useInterval(() => {
-    if (session?.label === "On Break") {
-      setProgress((((breakDuration * 60) - (session?.timeRemaining)) / (breakDuration * 60)) * 100);
-    }
-
-    else {
-    setProgress((((focusDuration * 60) - (session?.timeRemaining)) / (focusDuration * 60)) * 100);
-    }
-  }
-  ); */
-
-  //console.log((focusDuration * 60), session?.timeRemaining, progress, (breakDuration * 60));
-
   /**
    * Custom hook that invokes the callback function every second
    *

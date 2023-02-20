@@ -6,17 +6,13 @@
     setIsTimerRunning,
     focusDuration,
     setFocusDuration,
-    breakDuration,
     setBreakDuration,
     setSession,
     playCounter,
     setPlayCounter,
-    session
     })  
     {
     
-
-
     function playAndPause() {
     setPlayCounter(playCounter + 1);
     setIsTimerRunning((prevState) => {
@@ -45,9 +41,7 @@
       setPlayCounter(() => 0); 
       setSession(() => null);
           
-
   }
-
 
     return (
         <div
